@@ -1,0 +1,7 @@
+{
+  "name": "Train American Plugin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
