@@ -1,0 +1,6 @@
+{
+	"appId": "com.nickparrish.trainamerican",
+	"appName": "Train American Plugin",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

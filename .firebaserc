@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "get-up-83986": {
+      "hosting": {
+        "app": [
+          "get-up-83986"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "get-up-83986"
+  }
+}
