@@ -4,8 +4,53 @@
   </ion-toolbar>
 </ion-header> -->
 
-<ion-content>
-  <button class="bg-blue-400 px-4 py-2 border-2 border-white mx-auto my-auto">
-    adsfadsfasdfa
+<ion-content class="camera" transparent>
+  <!-- <div id="camera-view" class="flex"> -->
+  <div
+    style="
+      position: absolute;
+      inset: 0;
+      display: flex;
+      justify-items: center;
+      justify-content: center;
+      background-color: yellow;
+    "
+  >
+    <video
+      style="
+        transform: scale(-1, 1);
+        aspect-ratio: 1920 / 1080;
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+        background-color: red;
+      "
+      class="input_video"
+    ></video>
+
+    <canvas
+      style="
+        height: 100%;
+        transform: scale(-1, 1);
+        aspect-ratio: 1920 / 1080;
+        position: absolute;
+      "
+      class="output_canvas"
+    ></canvas>
+  </div>
+  <button
+    style="
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+      background-color: blue;
+      padding: 6px;
+      border-radius: 6px;
+      color: white;
+    "
+    (click)="testWebPlugin()"
+  >
+    Camera Test
   </button>
+  <!-- </div> -->
 </ion-content>

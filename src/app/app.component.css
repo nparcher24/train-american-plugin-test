@@ -1,5 +1,12 @@
+.app-main {
+  --background: transparent;
+}
+
 ion-menu ion-content {
-  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+  --background: var(
+    --ion-item-background,
+    var(--ion-background-color, transparent)
+  );
 }
 
 ion-menu.md ion-content {

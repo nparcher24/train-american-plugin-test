@@ -1,1 +1,13 @@
+.camera {
+  /* --background: transparent; */
+  --background: transparent;
+  --display: block;
+}
+.child {
+  /* background: blue; */
+  margin-top: calc(100vh / 2);
+}
 
+:host {
+  --background: transparent;
+}

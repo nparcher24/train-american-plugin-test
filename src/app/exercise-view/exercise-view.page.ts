@@ -22,9 +22,9 @@ export class ExerciseViewPage implements OnInit {
       });
   }
 
-  async testWebPlugin() {
+  testWebPlugin() {
     // CameraPreview.start(cameraPreviewOptions);
-    MCamera.showCamera({ testValue: 'Please Work' });
+    MCamera.showCamera({ lineColor: '000000' });
     // this.answer = '69';
   }
 }
